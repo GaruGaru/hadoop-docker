@@ -62,6 +62,9 @@ ADD ssh_config /root/.ssh/config
 RUN chmod 600 /root/.ssh/config
 RUN chown root:root /root/.ssh/config
 
+
+RUN /usr/local/hadoop/bin/hdfs dfs –chmod –R 755 /
+
 # # installing supervisord
 # RUN yum install -y python-setuptools
 # RUN easy_install pip
