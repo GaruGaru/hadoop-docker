@@ -5,8 +5,13 @@
     </property>
     
     <property>
-		<name>dfs.permissions.enabled</name>
+		<name>dfs.permissions</name>
 		<value>false</value>
 	</property>
 
+	<property>
+		<name>dfs.permissions.enabled</name>
+		<value>false</value>
+	</property>
+	
 </configuration>

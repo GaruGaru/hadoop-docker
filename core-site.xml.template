@@ -3,4 +3,15 @@
           <name>fs.defaultFS</name>
           <value>hdfs://HOSTNAME:9000</value>
       </property>
+
+    <property>
+		<name>dfs.permissions</name>
+		<value>false</value>
+	</property>
+
+	<property>
+		<name>dfs.permissions.enabled</name>
+		<value>false</value>
+	</property>
+
   </configuration>
